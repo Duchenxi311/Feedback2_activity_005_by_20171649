@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mg.studio.android.survey">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FinishActivity"></activity>
+        <activity android:name=".Show_ResultActivity" />
+        <activity android:name=".Question_TwelveActivity" />
+        <activity android:name=".Question_ElevenActivity" />
+        <activity android:name=".Question_TenActivity" />
+        <activity android:name=".Question_NineActivity" />
+        <activity android:name=".Question_EightActivity" />
+        <activity android:name=".Question_SevenActivity" />
+        <activity android:name=".Question_SixActivity" />
+        <activity android:name=".Question_FiveActivity" />
+        <activity android:name=".Question_FourActivity" />
+        <activity android:name=".Question_ThreeActivity" />
+        <activity android:name=".Question_TwoActivity" />
+        <activity android:name=".Question_OneActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
